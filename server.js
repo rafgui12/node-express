@@ -4,7 +4,6 @@ const campsiteRouter = require('./routes/campsiteRouter');
 const promotionRouter = require('./routes/promotionRouter');
 const partnerRouter = require('./routes/partnerRouter');
 
-const hostname = 'https://nodeexpress1-rafgui12.b4a.run';
 const port = 8080;
 
 const app = express();
@@ -23,6 +22,6 @@ app.use((req, res) => {
     res.end('<html><body><h1>This is an Express Server</h1></body></html>');
 });
 
-app.listen(port, hostname, () => {
-    console.log(`Server running at http://${hostname}:${port}/`);
+app.listen(port, () => {
+    console.log(`Server running at ${port}`);
 });
