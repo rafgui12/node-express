@@ -5,7 +5,7 @@ const promotionRouter = require('./routes/promotionRouter');
 const partnerRouter = require('./routes/partnerRouter');
 
 const hostname = 'localhost';
-const port = 3000;
+const port = 8080;
 
 const app = express();
 app.use(morgan('dev'));
