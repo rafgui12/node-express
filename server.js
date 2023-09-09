@@ -4,7 +4,7 @@ const campsiteRouter = require('./routes/campsiteRouter');
 const promotionRouter = require('./routes/promotionRouter');
 const partnerRouter = require('./routes/partnerRouter');
 
-const hostname = 'localhost';
+const hostname = 'https://nodeexpress1-rafgui12.b4a.run';
 const port = 8080;
 
 const app = express();
